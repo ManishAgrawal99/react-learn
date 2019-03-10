@@ -27,3 +27,13 @@ Java Script Extensions
 It is an Extension to the JS syntax to let us include HTML in it
 It avoids the seperation of the HTML and JS files and allows the HTML to directly use values evaluated from JS
 
+
+
+bootstrap and reactstrap
+-------------------------
+bootstrap cannot be used directly in react and hence it is reimplemented in reactstrap
+
+yarn add bootstrap@4.0.0
+yarn add reactstrap@5.0.0
+yarn add react-popper@0.9.2ss
+
