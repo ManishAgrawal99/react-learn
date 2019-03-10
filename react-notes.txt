@@ -37,3 +37,12 @@ yarn add bootstrap@4.0.0
 yarn add reactstrap@5.0.0
 yarn add react-popper@0.9.2ss
 
+
+Components
+----------
+A Component returns a set of react elements that should appear on the screen
+It is used to split the UI into independent pieces
+Components also accepts inputs
+
+User defined Component must always start with capital letters
+The one with small letters are interpreted as inbuilt DOM tags
