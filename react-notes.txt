@@ -46,3 +46,26 @@ Components also accepts inputs
 
 User defined Component must always start with capital letters
 The one with small letters are interpreted as inbuilt DOM tags
+
+
+State
+-----
+Each Component can store its own local information in its State
+The information is privately owned and controlled by the Component
+It can be passed to its children using Props
+Only class Components can have State
+
+Lifting the state up
+----------------------
+Sometimes the data is required to be shared by several Components
+At these times, we can give the state to be of one of the upper level components and the lower 
+ones could get the data from there
+But we can also lift the state from child to parent to make it more convenient
+
+For lifting, we import the data inside the parent Component
+This data is then passed to the child using props
+
+List and keys
+-------------
+Using the map function we can lay out all the elements of a list
+Every element must be associated with a key
