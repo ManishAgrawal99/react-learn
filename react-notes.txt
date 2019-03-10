@@ -1,0 +1,29 @@
+React Vocab
+
+One way data flow
+JSX
+Components
+State
+Props
+Virtual DOM
+element
+Flux/Redux
+
+
+Installation
+------------
+
+yarn global add create-react-app@1.5.2
+
+create-react-app --help
+
+create-react-app confusion
+
+
+JSX
+---
+Java Script Extensions
+
+It is an Extension to the JS syntax to let us include HTML in it
+It avoids the seperation of the HTML and JS files and allows the HTML to directly use values evaluated from JS
+
