@@ -69,3 +69,25 @@ List and keys
 -------------
 Using the map function we can lay out all the elements of a list
 Every element must be associated with a key
+
+
+Life Cycle of a Component
+-------------------------
+Every class component has a life Cycle associated with it 
+As and when the components are required, they are added to the DOM of application
+
+Life Cycle stages
+1. Mounting
+2. Updating
+3. Unmounting
+
+Mounting life cycle methods
+constructor()
+getDerivedStateFromProps()
+render()
+componentDidMount()
+
+
+
+
+ 
