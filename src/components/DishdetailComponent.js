@@ -1,14 +1,7 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
-class DetailedDish extends Component {
-
-    constructor(props) {
-        super(props);
-
-        this.state = {
-        }
-    }
+class DishDetail extends Component {
 
     renderComments(comments) {
 
@@ -72,4 +65,4 @@ class DetailedDish extends Component {
     }
 }
 
-export default DetailedDish;
+export default DishDetail;
