@@ -87,7 +87,23 @@ getDerivedStateFromProps()
 render()
 componentDidMount()
 
+Updating can be done by making changes to props or state
+Updating lifecycle methods
+getDerivedStateFromProps()
+render()
+shouldComponentUpdate()
+getSnapshotBeforeUpdate()
+componentDidUpdate()
 
 
+functional component
+---------------------
 
- 
+class component requires to extend the React.component
+                requires the render() method
+                can have local states
+
+functional are much simpler
+A simple function that returns a collection of React elements
+Receives props as parameters
+cannot have local state and access to lifecycle hooks
