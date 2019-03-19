@@ -107,3 +107,29 @@ functional are much simpler
 A simple function that returns a collection of React elements
 Receives props as parameters
 cannot have local state and access to lifecycle hooks
+
+
+
+react Virtual DOM
+------------------
+Virtual DOM also used in Vue
+
+it is a light weight representation of browser DOM
+It creates a tree of objects in the memory itself
+Hence the manipulation is extremely fast
+on Every setState, it is created completely from scratch
+
+Once the changes are defined in the Virtual DOM,
+the difference in the previous DOM and this Virtual DOM is seen and accordingly the required
+DOM elements are rerendered
+
+Updating the DOM
+
+Diffing algorith will detect all those nodes that are changed
+    if the keys of the subtree change, the entire subtree is re-rendered
+    If the key does not change, the subtree need not change
+
+New algorithm
+React Fiber
+Incremental rendering
+
